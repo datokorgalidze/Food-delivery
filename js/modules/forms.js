@@ -7,7 +7,7 @@
         const forms = document.querySelectorAll(formSelector,);
 
         const message = {
-        loading:'loading',
+        loading:'',
         success:'Thank you! We will contact you soon',
         failure:'Something is wrong'
         };
