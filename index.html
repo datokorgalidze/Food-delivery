@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+     <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="icons/logo.svg" alt="Логотип">
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__link">Food delivery</a>
+                <a href="#" class="header__link">Second point</a>
+            </nav>
+        </div>
+        <div class="header__right-block">
+            <button data-modal class="btn btn_white">Contact us</button>
+        </div>
+    </header>
+    <div class="sidepanel">
+        <div class="sidepanel__text"><span>Social networks</span></div>
+        <div class="sidepanel__divider"></div>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/facebook.svg" alt="facebook">
+        </a>
+    </div>
+
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        The "Fitness" menu is a new approach to cooking: more fresh vegetables and fruits. For people who are interested in sports; active and healthy. This is a completely new product with the best price and high quality!
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <div class="tabcontent__descr">
+                        “Premium” menu - we use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruits - a restaurant menu without going to a restaurant!
+                    </div>
+                </div> 
+                 <div class="tabcontent">
+                    <img src="img/tabs/hamburger.jpg" alt="post">
+                    <div class="tabcontent__descr">
+                        Our special “Lenten menu” is a careful selection of ingredients: a complete absence of animal products. Complete harmony with yourself and nature in every element! Everything will be Om!
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/post.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        The “Balanced” menu means that your diet complies with all scientific recommendations. We carefully calculate your need for used food and create the best dishes for you.
+                    </div>
+                </div>
+                <div class="tabheader">
+                    <h3>Choose your eating style</h3>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Fitness</div>
+                        <div class="tabheader__item">Premium</div>
+                        <div class="tabheader__item">Lenten</div>
+                        <div class="tabheader__item">Balanced</div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview__life">Live full life!</div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="offer">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="offer__text">
+                <h2 class="title">What can we offer you?</h2>
+                <div class="offer__descr">
+                    Our main idea is proper nutrition. It can be simple and delicious. We are not just delivery, we are service! We took upon ourselves all the calculations of nutritional food, calories, portion sizes and other important but boring aspects.
+                     All you have left is healthy, satisfying and proper food, which we deliver right to your door.
+                </div>
+            </div>
+            <div class="offer__action">
+                <button data-modal class="btn btn_dark">Contact us</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="offer__advantages">
+                <h2>Fast and helpful</h2>
+                <div class="offer__advantages-text">
+                    Cooking at home takes a lot of effort, time and nerves. We deliver food immediately for the whole day, and you can act as you wish, 
+                    without having to adjust to anyone and being confident in the quality of the product!
+                </div>
+                <h2>The right diet</h2>
+                <div class="offer__advantages-text">
+                    We have developed a special menu that takes into account all the nuances of proper nutrition, from the balance of dietary supplements to their preparation and division of the diet.
+                </div>
+            </div>
+            <div class="offer__slider">
+                <div class="offer__slider-counter">
+                    <div class="offer__slider-prev">
+                        <img src="icons/left.svg" alt="prev">
+                    </div>
+                    <span id="current">03</span>
+                    
+                    <span id="total">04</span>
+                    <div class="offer__slider-next">
+                        <img src="icons/right.svg" alt="next">
+                    </div>
+                </div>
+                <div class="offer__slider-wrapper">
+                    <div class="offer__inner-slider">
+                        <div class="offer__slide">
+                            <img src="img/slider/pepper.jpg" alt="pepper">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/food-12.jpg" alt="food">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/olive-oil.jpg" alt="oil">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/paprika.jpg" alt="paprika">
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="calculating">
+        <div class="container">
+            <h2 class="title">Let's calculate your calorie needs?
+            </h2>
+            <div class="calculating__field">
+                <div class="calculating__subtitle">
+                    Your gender
+                </div>
+                <div class="calculating__choose" id="gender">
+                    <div id="female" class="calculating__choose-item calculating__choose-item_active">Female</div>
+                    <div id="male" class="calculating__choose-item">Male</div>
+                </div>
+
+                <div class="calculating__subtitle">
+                    Your constitution
+                </div>
+                <div class="calculating__choose calculating__choose_medium">
+                    <input type="text" id="height" placeholder="Enter height" class="calculating__choose-item">
+                    <input type="text" id="weight" placeholder="Enter weight"  class="calculating__choose-item">
+                    <input type="text" id="age" placeholder="Enter your age" class="calculating__choose-item">
+                </div>
+
+                <div class="calculating__subtitle">
+                    Choose your physical activity
+                </div>
+                <div class="calculating__choose calculating__choose_big">
+                    <div data-ratio="1.2" id="low" class="calculating__choose-item">Minimum activity level </div>
+                    <div data-ratio="1.375"  id="small"  class="calculating__choose-item calculating__choose-item_active">Low activity level</div>
+                    <div data-ratio="1.55"  id="medium" class="calculating__choose-item">Average activity level</div>
+                    <div data-ratio="1.725"  id="high" class="calculating__choose-item">High activity level</div>
+                </div>
+
+                <div class="calculating__divider"></div>
+
+                <div class="calculating__total">
+                    <div class="calculating__subtitle">
+                        Your daily calorie intake:
+                    </div>
+                    <div class="calculating__result">
+                        <span>2700</span> Cal
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="menu">
+        <h2 class="title">Our menu for the day</h2>
+
+        <div class="menu__field">
+            <div class="container">
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="order">
+        <div class="container">
+            <div class="title">Order  your trial day right now!</div>
+            <form action="#" class="order__form">
+                <input required placeholder="Your name" name="name" type="text" class="order__input">
+                <input required placeholder="Your phone number" name="phone" type="phone" class="order__input">
+                <img src="icons/right.svg" alt="right">
+                <button class="btn btn_dark btn_min">Call back me</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="promotion">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="promotion__text">
+                <div class="title">Promotion for new clients!</div>
+                <div class="promotion__descr">
+                    We value every client and offer you to become one of them on very favorable terms.
+                     Anyone who orders food delivery for a week will be given a discount of <span>20%!</span>
+                    <br><br>
+                    The promotion will end on October 13 at 00:00
+                </div>
+            </div>
+            <div class="promotion__timer">
+                <div class="title"> Until the end of the promotion:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">12</span>
+                        Days
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours">20</span>
+                        Hours
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes">56</span>
+                        Minutes
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds">20</span>
+                        Secondes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="subtitle">We are in social networks:</div>
+                <a href="#" class="link">instagram</a>
+                <a href="#" class="link">facebook</a>
+            </div>
+            <div class="pepper">
+                <img src="icons/veg.svg" alt="pepper">
+            </div>
+            <div class="call">
+                <div class="subtitle">Or contact us</div>
+                <a href="#" class="link">+380678341034</a>
+                <a href="#" class="link">+380500941356</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">We will contact you as quickly as possible!</div>
+                    <input required placeholder="Your name" name="name" type="text" class="modal__input">
+                    <input required placeholder="Your phone number" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Call back me</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bundle.js"></script>
+</body>
+</html>

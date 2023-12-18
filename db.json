@@ -1,0 +1,87 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "'Fitness' menu",
+      "descr": "The 'Fitness' menu is a new approach to cooking: more fresh vegetables and fruits. A product for active and healthy people. This is a completely new product with the best price and high quality!",
+      "price": 9
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "'Premium' Menu",
+      "descr": "In the 'Premium' menu we use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruits - a restaurant menu without going  to a restaurant!",
+      "price": 14
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Menu 'Premium''",
+      "descr": "In the 'Premium' menu we use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruit - a restaurant menu without going to a restaurant!",
+      "price": 21
+    }
+  ],
+  "requests": [
+    {
+      "name": "dato",
+      "phone": "4443434",
+      "id": 1
+    },
+    {
+      "name": "dato",
+      "phone": "4443434",
+      "id": 2
+    },
+    {
+      "name": "dato",
+      "phone": "4443434",
+      "id": 3
+    },
+    {
+      "name": "dato",
+      "phone": "4443434",
+      "id": 4
+    },
+    {
+      "name": "dika",
+      "phone": "2225858",
+      "id": 5
+    },
+    {
+      "name": "dato",
+      "phone": "4443434",
+      "id": 6
+    },
+    {
+      "name": "dato",
+      "phone": "2225858",
+      "id": 7
+    },
+    {
+      "name": "nino",
+      "phone": "+995 593 19 20 11",
+      "id": 8
+    },
+    {
+      "name": "nino",
+      "phone": "+995 593 19 20 11",
+      "id": 9
+    },
+    {
+      "name": "dato",
+      "phone": "2225858",
+      "id": 10
+    },
+    {
+      "name": "dato",
+      "phone": "2225858",
+      "id": 11
+    },
+    {
+      "name": "dato",
+      "phone": "2225858",
+      "id": 12
+    }
+  ]
+}
